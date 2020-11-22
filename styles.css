@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: #f9f7f3;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='96' viewBox='0 0 60 96'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23a55f02' fill-opacity='0.51'%3E%3Cpath d='M36 10a6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-12 0 6 6 0 0 0-6-6 6 6 0 0 1-6-6V10a6 6 0 1 1 12 0 6 6 0 0 0 12 0zm24 78a6 6 0 0 1-6-6 6 6 0 0 0-6-6 6 6 0 0 1-6-6V58a6 6 0 1 1 12 0 6 6 0 0 0 6 6v24zM0 88V64a6 6 0 0 0 6-6 6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-6 6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+a {
+    color:rgb(3, 3, 3);
+    text-decoration: none;
+}
+
+ul {
+    list-style:none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* navegaciòn */
+.nav-main{
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+ 
+}
+
+.nav-brand {
+    width: 150px;
+}
+
+/* Nav Left */
+.nav-main ul{
+    display: flex;
+    } 
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #000000;
+} 
+
+.nav-main ul.nav-manu{
+    flex: 1;
+    margin-left: 10px;
+}
+
+/* shock case */
+hr {
+    margin: 10px 0;
+}
+.showcase {
+    width: 100%;
+    height: 550px;
+    background: url('./img/kuki.png.jpeg') no-repeat center center/cover;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: black;
+    color: cornsilk;
+    font-size: 15px;
+    border: 1px solid white;
+
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.showcase h2,
+.showcase p {
+    margin-bottom: 10px;
+}
+
+/* separar fotos columnas*/
+.columnas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 30px 0;
+}
+
+.columnas img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.columnas h3 {
+    font-size: 20px;
+
+    margin: 10px 0;
+    
+
+}
+
+.columnas a {
+    padding: 10px,0;
+    color: black
+    ;text-transform: uppercase;
+    display: inline-block;
+}
+
+.columnas a:hover {
+    text-decoration: underline;
+}
+
+.contenido {
+    background: url('./img/paronamica.jpg') no-repeat center center/cover; ;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 40px;
+
+}
+.contenido .banner {
+    width: 40%;
+    padding: 90px 0 0 30 px;
+    color: black;
+}
+
+.redes {
+    margin: 50px;
+
+}
+.redes p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.liks a {
+    margin: 30 0;
+
+}
+.links a i{
+    font-size: 3rem;
+}
